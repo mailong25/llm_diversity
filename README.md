@@ -1,3 +1,5 @@
+The repo is the official implementation for our paper: "Improving Linguistic Diversity of Large Language Models with Possibility Exploration Fine-Tuning", Arxiv[https://arxiv.org/abs/2412.03343]
+
 ### Challenge
 Large language models (LLMs) are often fine-tuned using one-to-one mapping datasets where each input prompt is paired with a single response. During inference, these models generate outputs based on probability-based decoding techniques like beam search or temperature sampling. Consequently, **the responses produced by LLMs are typically predictable and conservative, prioritizing the most likely answers over more creative ones.**
 
